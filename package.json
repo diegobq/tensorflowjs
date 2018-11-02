@@ -7,7 +7,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "heroku-postbuild": "yarn & yarn serve"
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@tensorflow-models/knn-classifier": "^0.2.2",
